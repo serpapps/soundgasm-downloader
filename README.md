@@ -1,127 +1,168 @@
-# Soundgasm Downloader — Coming Soon (Browser Extension)
+# Soundgasm Downloader (Browser Extension)
 
-> Save audio recordings from Soundgasm as local MP3 or M4A files directly from your browser. **This extension is currently in development and has not been released yet.**
+> Save Soundgasm audio recordings as local MP3 or M4A files directly from your browser.
 
-Soundgasm Downloader is an upcoming browser extension that will give users a simple, reliable way to save audio from the Soundgasm platform without relying on third-party websites, screen recorders, or command-line utilities. It is being built around the browser listening experience so you can export ASMR recordings, voice clips, and other audio content while browsing Soundgasm pages.
+Soundgasm Downloader is a browser extension built for people who want a simple way to save audio from Soundgasm pages without using third-party converter sites, screen recorders, or command-line tools. It works inside the browser, detects supported Soundgasm audio sources, and saves recordings as standard audio files for offline playback.
 
-- Detect and capture audio hosted on Soundgasm profile and track pages
-- Save recordings as standard MP3 or M4A files for offline playback
-- Handle single-track downloads with one click from the extension popup
-- Work entirely inside the browser with no external software required
-- Designed for Chrome, Edge, Brave, Opera, Firefox, and other Chromium browsers
-
-## Status
-
-**This extension is not yet available for download.** Development is in progress and a release date has not been announced. Sign up below to get notified when it launches.
-
-:bell: **Get notified when this launches:** [Join the waitlist](https://serp.ly/soundgasm-downloader)
+- Detect supported audio on Soundgasm track pages
+- Save recordings as MP3 or M4A files, depending on the source
+- Use a browser-native workflow with no external desktop software
+- Keep files available for offline listening, backups, and personal archives
+- Works with Chrome, Edge, Brave, Opera, Firefox, and other Chromium browsers
 
 ## Links
 
-- :hourglass_flowing_sand: Waitlist: [Coming Soon — Sign Up](https://serp.ly/soundgasm-downloader)
+- :rocket: Get it here: [Soundgasm Downloader](https://serp.ly/soundgasm-downloader)
+- :new: Latest release: [GitHub Releases](https://github.com/serpapps/soundgasm-downloader/releases/latest)
 - :question: Help center: [SERP Help](https://help.serp.co/en/)
-- :bulb: Request features: [GitHub Issues](https://github.com/serpapps/soundgasm-downloader/issues)
+- :beetle: Report bugs: [GitHub Issues](https://github.com/serpapps/soundgasm-downloader/issues)
+- :bulb: Request features: [Feature Requests](https://github.com/serpapps/soundgasm-downloader/issues)
 
 ## Preview
 
-![Soundgasm Downloader hero image](assets/workflow-preview.webp)
+![Soundgasm Downloader workflow preview](assets/workflow-preview.webp)
 
 ## Table of Contents
 
 - [Why Soundgasm Downloader](#why-soundgasm-downloader)
-- [Planned Features](#planned-features)
-- [How It Will Work](#how-it-will-work)
-- [Expected Formats](#expected-formats)
+- [Features](#features)
+- [How It Works](#how-it-works)
+- [Step-by-Step Tutorial: How to Download Soundgasm Audio](#step-by-step-tutorial-how-to-download-soundgasm-audio)
+- [Supported Formats](#supported-formats)
 - [Who It's For](#who-its-for)
-- [Use Cases We're Building For](#use-cases-were-building-for)
+- [Common Use Cases](#common-use-cases)
+- [Troubleshooting](#troubleshooting)
+- [Trial & Access](#trial--access)
+- [Installation Instructions](#installation-instructions)
 - [FAQ](#faq)
-- [License](#license)
 - [Notes](#notes)
+- [License](#license)
 - [About Soundgasm](#about-soundgasm)
 
 ## Why Soundgasm Downloader
 
-Soundgasm hosts audio through an embedded player that streams files from its servers. While the platform makes it easy to listen in the browser, there is no built-in download button or export feature on most pages. Users who want to keep a local copy of a recording for offline listening, archiving, or personal use are left inspecting page source or hunting for direct URLs manually.
+Soundgasm is designed for listening in the browser. Recordings play through an embedded audio player, but most pages do not provide a clear download button or a simple export workflow. If you want a local copy of a recording you are allowed to save, the usual alternatives are awkward: inspect the page source, hunt for direct media URLs, paste links into third-party sites, or record the browser output in real time.
 
-Soundgasm Downloader is being designed to eliminate that friction. The extension will sit inside the browser toolbar, detect the audio source on any Soundgasm track page, and let you save the file to your machine in a single step. No copying links, no pasting into converter sites, and no guessing which file format the server returned.
+Soundgasm Downloader removes that friction. The extension focuses on the active Soundgasm page, detects supported audio sources exposed to the browser, and lets you save the recording as a normal file on your computer. The goal is a cleaner workflow for offline listening and personal archiving without leaving the browser.
 
-## Planned Features
+## Features
 
-- Automatic detection of audio sources on Soundgasm track and profile pages
-- One-click download of the full audio file from the extension popup
-- Output in MP3 or M4A format depending on the original source encoding
-- Filename generation using the track title and uploader name where available
-- Batch download support for saving multiple tracks from a single profile page
-- Progress indicator showing download status for longer recordings
-- Browser-native workflow with no external software dependencies
-- Cross-browser compatibility targeting Chrome, Edge, Brave, and Firefox
+- Automatic detection for supported Soundgasm audio pages
+- One-click download flow from the extension popup
+- Output as MP3 or M4A depending on the original hosted file
+- Filename handling based on available page and track details
+- Progress feedback while longer recordings download
+- Browser-native saving through your normal Downloads folder
+- No external converter website or desktop recorder required
+- Cross-browser support for Chrome, Edge, Brave, Opera, Firefox, and compatible Chromium browsers
 
-## How It Will Work
+## How It Works
 
-1. Install the extension once it is released.
-2. Navigate to any Soundgasm user profile or individual track page.
-3. The extension icon will indicate that a downloadable audio source has been detected.
-4. Click the extension icon to open the popup interface.
-5. Review the detected track title and uploader information.
-6. Choose your preferred output format if multiple options are available.
-7. Click download and the audio file will be saved to your local machine.
-8. For profile pages with multiple tracks, select individual recordings or download all at once.
+1. Install the extension from the latest release.
+2. Open Soundgasm in your browser.
+3. Navigate to a supported user recording page.
+4. Let the audio player and page content load.
+5. Click the extension icon to open the popup.
+6. Review the detected audio item.
+7. Start the download and save the file locally.
+8. Open the saved MP3 or M4A from your Downloads folder.
 
-## Expected Formats
+## Step-by-Step Tutorial: How to Download Soundgasm Audio
 
-- Input: Soundgasm hosted audio streams (typically MP3 or M4A served from the platform CDN)
-- Output: MP3 or M4A, preserving the original quality of the hosted file
+1. Install Soundgasm Downloader from the latest GitHub release.
+2. Open a Soundgasm recording page in a supported browser.
+3. Wait for the page's audio player to load. If the recording has not initialized yet, press play briefly so the browser can see the audio source.
+4. Click the Soundgasm Downloader extension button.
+5. Confirm that the popup shows the detected recording.
+6. Click Download.
+7. Wait for the progress indicator to finish.
+8. Find the saved audio file in your browser's Downloads folder.
 
-Exported files will be saved in standard formats compatible with most media players, phones, and audio editing tools.
+## Supported Formats
+
+- Input: Supported Soundgasm hosted audio files
+- Output: MP3 or M4A, preserving the source format where possible
+
+The extension does not promise higher quality than the source provides. Saved files are intended to match the audio available from the Soundgasm page.
 
 ## Who It's For
 
-- ASMR listeners who want offline copies of their favorite recordings
-- Audio content creators archiving their own uploads for backup purposes
-- Users with limited or unreliable internet access who prefer local playback
-- Researchers and students collecting audio samples for personal projects
-- Anyone who wants their saved audio on their hard drive rather than streaming it every time
+- ASMR listeners who want offline access to favorite recordings
+- Creators backing up their own Soundgasm uploads
+- Users with unreliable internet access who prefer local playback
+- Researchers and students collecting audio samples they have permission to save
+- Anyone who wants a browser-based alternative to manual URL extraction
 
-## Use Cases We're Building For
+## Common Use Cases
 
-- Save ASMR recordings for offline listening during travel or before sleep
-- Back up your own Soundgasm uploads to a local drive or external storage
-- Build a personal offline collection of audio content you return to frequently
-- Archive recordings before they are removed or a creator deletes their profile
-- Download audio clips for use in personal editing, mixing, or reference projects
+- Save a favorite ASMR recording before traveling
+- Back up your own Soundgasm uploads to a local drive
+- Keep personal audio references organized outside the browser
+- Revisit recordings later without streaming them every time
+- Avoid third-party converter sites when saving audio you have rights to download
+
+## Troubleshooting
+
+**The extension does not detect audio**  
+Refresh the Soundgasm page, wait for the player to finish loading, and try playing the recording briefly before opening the popup.
+
+**The download does not start**  
+Check that your browser allows downloads from extensions and that the recording is accessible in the current tab.
+
+**The file name looks generic**  
+Some pages expose limited metadata. Rename the file after download if the page does not provide enough title or uploader detail.
+
+**The saved quality is lower than expected**  
+The extension saves the audio source made available by Soundgasm. It cannot create a higher-quality file than the hosted recording.
+
+## Trial & Access
+
+- Includes a limited free trial so you can test the workflow first
+- Email sign-in uses one-time password verification
+- Unlimited downloads are available with a paid license
+
+Start here: [https://serp.ly/soundgasm-downloader](https://serp.ly/soundgasm-downloader)
+
+## Installation Instructions
+
+1. Open the latest release page:
+   [https://github.com/serpapps/soundgasm-downloader/releases/latest](https://github.com/serpapps/soundgasm-downloader/releases/latest)
+2. Download the extension build for your browser.
+3. Install or load the extension in your browser.
+4. Open Soundgasm and navigate to a supported recording page.
+5. Use the popup to detect and download the audio.
 
 ## FAQ
 
-**When will Soundgasm Downloader be released?**
-A release date has not been set. Sign up at the waitlist link above to be notified as soon as it is available.
+**What can I download?**  
+Supported Soundgasm audio recordings that are available to your active browser session.
 
-**Does it work on all Soundgasm pages?**
-The extension is being built to detect audio on individual track pages and user profile pages. Support for other page layouts will depend on how the platform structures its audio embeds.
+**Does it download video?**  
+No. Soundgasm Downloader is focused on audio recordings.
 
-**What audio quality will it support?**
-The extension will preserve the quality of the original file hosted on Soundgasm. It does not re-encode or compress the audio unless a format conversion is necessary.
+**Can I download from profile pages in bulk?**  
+The primary workflow is individual recording pages. Profile-page behavior depends on how the page loads and exposes recordings in the browser.
 
-**Will it save the track title and uploader name?**
-The plan is to generate filenames from the track title and uploader name displayed on the page, and to embed basic metadata in the output file where the format supports it.
+**Where are files saved?**  
+Files are saved through your browser's normal download system, usually into your Downloads folder.
 
-**Is it free?**
-Pricing details will be announced closer to launch. SERP extensions typically include a free trial period.
+**Do I need extra software?**  
+No. The workflow runs through the browser extension.
 
-**Can I download multiple tracks from a profile page?**
-Batch downloading from profile pages is a planned feature. The exact workflow will depend on how many tracks the page loads and browser resource constraints.
+**Is it free?**  
+The extension includes a trial. Continued or unlimited use may require a paid license.
+
+## Notes
+
+- Only download content you own or have explicit permission to save
+- Audio quality depends on the original file hosted by Soundgasm
+- Soundgasm platform changes may affect detection or download behavior
+- An active internet connection is required to access and download audio from the site
 
 ## License
 
 This repository is distributed under the proprietary SERP Apps license in the [LICENSE](LICENSE) file. Review that file before copying, modifying, or redistributing any part of this project.
 
-## Notes
-
-- This extension is in development and is not available for download yet
-- Only download content you own or have explicit permission to save
-- Audio quality will match the original file hosted on the Soundgasm platform
-- Soundgasm platform changes may affect functionality once released
-- An active internet connection is required to access and download audio from the site
-
 ## About Soundgasm
 
-Soundgasm is an audio hosting platform widely used for sharing ASMR recordings, voice clips, and other spoken-word or ambient audio content. Creators upload recordings to their profiles, and listeners stream them through a simple embedded player in the browser. The platform does not offer a native download or export feature for listeners, which means saving audio for offline use requires manual intervention. Soundgasm Downloader is being built to provide that missing functionality for users who want a local copy of audio they already listen to through the site.
+Soundgasm is an audio hosting platform commonly used for ASMR recordings, voice clips, and other spoken-word or ambient audio. Creators publish recordings to profile and track pages, and listeners stream them through an embedded browser player. Soundgasm Downloader provides a focused browser-extension workflow for saving supported audio locally when you have the right to download it.
