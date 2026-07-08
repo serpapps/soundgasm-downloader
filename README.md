@@ -1,4 +1,4 @@
-# Soundgasm Downloader (Browser Extension)
+# Soundgasm Video Downloader (Browser Extension)
 
 > Save Soundgasm audio recordings as local MP3 or M4A files directly from your browser.
 
@@ -12,7 +12,7 @@ Soundgasm Downloader is a browser extension built for people who want a simple w
 
 ## Links
 
-- :rocket: Get it here: [Soundgasm Downloader](https://serp.ly/soundgasm-downloader)
+- :rocket: Get it here: [Soundgasm Downloader](https://serp.ly/soundgasm-downloader?via=github)
 - :new: Latest release: [GitHub Releases](https://github.com/serpapps/soundgasm-downloader/releases/latest)
 - :question: Help center: [SERP Help](https://help.serp.co/en/)
 - :beetle: Report bugs: [GitHub Issues](https://github.com/serpapps/soundgasm-downloader/issues)
@@ -121,7 +121,7 @@ The extension saves the audio source made available by Soundgasm. It cannot crea
 - Email sign-in uses one-time password verification
 - Unlimited downloads are available with a paid license
 
-Start here: [https://serp.ly/soundgasm-downloader](https://serp.ly/soundgasm-downloader)
+Start here: [https://serp.ly/soundgasm-downloader?via=github](https://serp.ly/soundgasm-downloader?via=github)
 
 ## Installation Instructions
 
